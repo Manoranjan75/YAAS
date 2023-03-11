@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DM+Sans&family=Fjalla+One&family=Lato:wght@700&family=Michroma&family=Montserrat:wght@400;800&family=Nanum+Gothic:wght@700&family=Pinyon+Script&family=Poppins:wght@300&family=Questrial&display=swap"
+        rel="stylesheet">
+    <title>About</title>
+    
+    <style>
+         /* CSS Reset */
+         body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Montserrat', sans-serif;
+            /* font-weight: 600; */
+            background-color: black;
+            background-image: url('4767-1.jpg');
+            background-size: 100%;
+            color: white;
+            /* font-family: 'Anton', sans-serif; */
+        }
+       /* FOR CONTAINER-1 */
+       .container-1 {
+            /* border: 2px red solid; */
+            margin: 40px;
+            height: 140px;
+        }
+        .container-1 span {
+            font-family: 'Montserrat', sans-serif;
+            display: inline-block;
+            opacity: 0;
+            filter: blur(4px);
+            font-size: 100px;
+            font-weight: 800;
+        }
+
+        span:nth-child(1) {
+            animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+
+        span:nth-child(2) {
+            animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+
+        span:nth-child(3) {
+            animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+
+        span:nth-child(4) {
+            animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+
+        span:nth-child(5) {
+            animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        }
+        @keyframes fade-in {
+            100% {
+                opacity: 1;
+                filter: blur(0);
+            }
+        }
+        .container-2{
+            margin: 40px;
+            height: 400px;
+            padding: 20px;
+            background-color: rgb(161, 165, 119);
+            position: relative;
+            font-family: 'Questrial', sans-serif;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="container-1" id="box-1">
+        <span style="color:rgb(255, 255, 255);">A</span>
+        <span style="color:rgb(220, 220,220);">B</span>
+        <span style="color:rgb(200, 200, 200);">O</span>
+        <span style="color:rgb(180,180, 180);">U</span>
+        <span style="color:rgb(160, 160, 160);">T</span>
+    </header>
+
+
+    <div class="container-2">
+        <div class="box-2">
+            <p>Our project is a Cyclone and thunderstorm intensity estimation model. Our model will predict the windspeed of the cyclones which further use to predict the destruction from that storms. Our project is based on an AI model called CNN (a type of deep learning model for processing data that has a grid pattern, such as images). It uses the INSAT3D imagery can be automated through the development of a software tool that integrates satellite imagery processing algorithms with a graphical user interface (GUI). <br> <br> This software can allow users to quickly and easily access INSAT3D imagery, process the data to extract relevant information, and estimate the intensity of a cyclone based on a set of pre-determined algorithms.</p>
+
+        </div>
+
+    </div>
+</body>
+</html>
